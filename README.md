@@ -1,36 +1,26 @@
-# SchoolOS AI — End-to-end workflow demo
+SchoolOS AI — UI Feedback Demo
+==============================
 
-A responsive single-file concept prototype for demonstrating principal/admin and teacher workflows. It is designed for GitHub Pages and local browser testing.
+This is a standalone, interactive UI prototype. It uses fictional data and runs entirely in your browser. It requires no Node.js, database, Supabase account, AI key, internet connection, or installation.
 
-## Demo sign-in
+HOW TO OPEN
+1. Extract SchoolOS-AI-UI-Demo.zip.
+2. Open index.html in Chrome, Edge, or Firefox.
+3. Use the role switcher at the top-right to preview Principal, Teacher, Student, and Parent.
+4. Explore Assessments → Create assessment → Review questions → Marks register. Try changing marks, setting a student absent, filtering, validating, and reviewing insights.
+5. On a phone-sized screen, the layout changes to mobile navigation. You can resize your browser to test this.
 
-- Principal: `principal@schoolos.demo` / `Principal123!`
-- School admin: `admin@schoolos.demo` / `Admin123!`
-- Parent preview: `parent@schoolos.demo` / `Parent123!` (fictional child record only)
-- Teacher Ananya Reddy: `ananya@schoolos.demo` / `Teacher123!`
-- Teacher Ravi Kumar: `ravi@schoolos.demo` / `Teacher123!`
-- Teacher Meena Lakshmi: `meena@schoolos.demo` / `Teacher123!`
+WHAT IS REAL IN THIS PROTOTYPE
+- Browser-rendered role-specific screens and navigation.
+- Clickable assessment creation/review and sample question flow.
+- Marks entry with half marks, absent state, basic validation, and filters.
+- Demo intervention/task interactions and role views.
+- Responsive layout.
 
-These credentials are intentionally public demo credentials, not secure authentication.
+WHAT IS NOT IMPLEMENTED
+- No persistent database; reload resets changes.
+- Role switching is a preview only, not authentication or authorization.
+- Upload/extraction, real AI generation, secure accounts, school isolation, exports, QR/ArUco scanning, and real messaging are not connected.
+- All student records and performance values are fictional.
 
-## Run
-
-Open `index.html` in a modern browser, or host it with GitHub Pages. It is mobile responsive. For GitHub Pages, put `index.html` at the repository root and choose `main` / `/(root)` under Settings → Pages.
-
-## Included workflows
-
-- Role-specific sign-in and role-specific navigation for principal, school admin, three teachers and a limited parent preview.
-- Principal overview and action centre.
-- Teacher directory and individual teacher profiles with assigned classes/subjects, assessment status, student evidence, remaining gaps, attendance/syllabus context and support needs.
-- Student profile, latest-vs-previous performance, attendance context, intervention history and parent-meeting draft.
-- Assessment creation, question-wise mark entry, calculated totals, publication status and CSV export.
-- Learning gap review and intervention assignment, completion status, baseline/retest entry and comparison.
-- Reports, printable drafts and CSV exports.
-- Local browser persistence and reset-to-demo-data action.
-- Mobile navigation with high-frequency destinations and a More menu.
-
-## Important limitations
-
-This is a functional **local-data prototype**, not a production system. Changes are stored in that browser only and do not synchronise across devices. Authentication is simulated client-side and can be bypassed; it must never protect real data. There is no shared database, backend API, secure tenant isolation, server-side audit log, backup, live AI paper extraction/mapping, email or WhatsApp delivery, billing, or production monitoring. All names and records are fictional. Do not enter real student data.
-
-Before a paid school pilot, implement server-side authentication and role-based access control, a shared database with school-level row isolation, audit logs, backups, secure deployment, privacy/data-retention controls, and acceptance testing with a school. Verify all calculations and topic mappings with actual teacher-reviewed records.
+Please do not enter real student data. This prototype is intended for feedback on navigation, visual design, and workflow only.
