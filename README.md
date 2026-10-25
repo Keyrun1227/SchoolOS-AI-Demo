@@ -1,8 +1,7 @@
 # 🎓 SchoolOS AI — Intelligent Academic Assessment & Learning Platform
 
 <p align="center">
-  <strong>From Assessment to Measurable Academic Progress</strong>
-  <br>
+  <strong>From Assessment to Measurable Academic Progress</strong><br>
   Transform assessment results into meaningful insights, targeted revision, and continuous learning improvement.
 </p>
 
@@ -16,7 +15,7 @@
 <p align="center">
   <a href="https://schoolos-ai-0z1k.onrender.com/">🌐 Live Application</a>
   &nbsp;•&nbsp;
-  <a href="https://keyrun1227.github.io/schoolos-demo/">🎮 Interactive Demo with Sample Data</a>
+  <a href="https://keyrun1227.github.io/SchoolOS-AI-Demo/">🎮 Interactive Demo with Sample Data</a>
   &nbsp;•&nbsp;
   <a href="mailto:chitturidurgasatyasaikiran@gmail.com">📩 Contact</a>
 </p>
@@ -78,14 +77,14 @@ Explore the SchoolOS AI interface and its role-based academic workspaces.
 Want to explore the interface without accessing the private source repository?
 
 <p align="center">
-  <a href="https://keyrun1227.github.io/schoolos-demo/">
+  <a href="https://keyrun1227.github.io/SchoolOS-AI-Demo/">
     <img src="https://img.shields.io/badge/Launch-Demo%20with%20Sample%20Data-0F766E?style=for-the-badge" alt="Launch SchoolOS AI sample-data demo">
   </a>
 </p>
 
-**Demo:** https://keyrun1227.github.io/schoolos-demo/
+**Demo URL:** https://keyrun1227.github.io/SchoolOS-AI-Demo/
 
-The demo is intended to provide a preview using sample data. It is separate from the private source repository. Confirm which actions are simulated and which are functional in the demo before presenting them as live application features.
+The demo is intended to provide a preview using sample data. It is separate from the private source repository. Confirm which actions are simulated and which are functional before presenting them as live application features.
 
 ---
 
@@ -205,26 +204,26 @@ The platform is organised around Principal, Teacher, Parent, and Student experie
 ## 🏗️ High-Level Architecture
 
 ```text
-                   SchoolOS AI
-                       |
-             ┌─────────┴─────────┐
-             |                   |
-          Frontend           User Roles
-       Next.js / React    Principal / Teacher
-                          Parent / Student
-             |                   |
-             └─────────┬─────────┘
-                       |
-                  Backend API
-                    FastAPI
-                       |
-             ┌─────────┴─────────┐
-             |                   |
-       Academic Logic        AI Services
-             |                   |
-             └─────────┬─────────┘
-                       |
-                  Data Storage
+                    SchoolOS AI
+                         |
+              ┌──────────┴──────────┐
+              |                     |
+          Frontend               User Roles
+       Next.js / React       Principal / Teacher
+                             Parent / Student
+              |                     |
+              └──────────┬──────────┘
+                         |
+                    Backend API
+                      FastAPI
+                         |
+              ┌──────────┴──────────┐
+              |                     |
+        Academic Logic          AI Services
+              |                     |
+              └──────────┬──────────┘
+                         |
+                    Data Storage
 ```
 
 This is a conceptual diagram, not proof that every integration has been verified in a live deployment.
@@ -335,7 +334,7 @@ npm run dev
 ### 4. Open SchoolOS AI
 
 - **Live application:** https://schoolos-ai-0z1k.onrender.com/
-- **Sample-data demo:** https://keyrun1227.github.io/schoolos-demo/
+- **Sample-data demo:** https://keyrun1227.github.io/SchoolOS-AI-Demo/
 
 Live availability and functionality depend on the current deployment configuration.
 
@@ -460,7 +459,7 @@ The readiness of individual features depends on the current implementation and v
 
 **Live website:** https://schoolos-ai-0z1k.onrender.com/
 
-**Demo with sample data:** https://keyrun1227.github.io/schoolos-demo/
+**Demo with sample data:** https://keyrun1227.github.io/SchoolOS-AI-Demo/
 
 ### 🔒 Private Source Code Repository
 
@@ -480,7 +479,7 @@ Please include your name, organization (if applicable), and the purpose of your 
 
 - **Project:** SchoolOS AI — Intelligent Academic Assessment & Learning Platform
 - **Live application:** https://schoolos-ai-0z1k.onrender.com/
-- **Sample-data demo:** https://keyrun1227.github.io/schoolos-demo/
+- **Sample-data demo:** https://keyrun1227.github.io/SchoolOS-AI-Demo/
 - **Source code:** Private GitHub repository
 - **GitHub owner:** [Keyrun1227](https://github.com/Keyrun1227)
 - **Contact:** [chitturidurgasatyasaikiran@gmail.com](mailto:chitturidurgasatyasaikiran@gmail.com)
@@ -488,9 +487,7 @@ Please include your name, organization (if applicable), and the purpose of your 
 ---
 
 <p align="center">
-  <strong>🎓 SchoolOS AI</strong>
-  <br>
-  <em>Assess better. Teach smarter. Help every learner progress.</em>
-  <br><br>
+  <strong>🎓 SchoolOS AI</strong><br>
+  <em>Assess better. Teach smarter. Help every learner progress.</em><br><br>
   Built to support better academic decisions and more focused learning.
 </p>
